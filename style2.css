@@ -1,0 +1,44 @@
+.carousel-item {
+    height: 500px;
+    object-fit: cover
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+.IMGDEREV {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.image-container {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+    /* Тень при наведении */
+}
+
+footer {
+    background-color: rgba(169, 169, 169, 0.226);
+    color: #5e5e5e;
+}
+
+body {
+    top: 0 !important;
+}
+
+.skiptranslate {
+    display: none;
+    height: 0;
+}
+
+.language__img {
+    cursor: pointer;
+}

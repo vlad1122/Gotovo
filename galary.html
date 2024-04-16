@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Сожженные деревни Пинского района</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="/css/_variables.scss">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src='main.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="google-translate.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="603deb15-24c6-4102-ada6-6e5eeb552edf.svg" alt="Bootstrap" width="55" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galary.html">Сожженные деревни</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#1">Контакты</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Выбор языка
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><img src="lang__ru.png" alt="ru" data-google-lang="ru" class="language__img"><a alt="ru"
+                                    data-google-lang="ru">Русский</a></li>
+                            <li><img src="lang__en.png" alt="en" data-google-lang="en">
+                                <a alt="en" data-google-lang="en">Английский</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="image-container">
+                        <img src="Бобрик.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                            data-bs-target="#IMG1" alt="..." class="persona" title="Бобрик">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <img src="Борки.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG2" alt="..." class="persona" title="Борки">
+                </div>
+                <div class="col-sm">
+                    <img src="Велесница.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG4" alt="..." class="persona" title="Велесница">
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-sm">
+                    <img src="Заборовцы.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG5" alt="..." class="persona" title="Заборовцы">
+                </div>
+                <div class="col-sm">
+                    <img src="Кнубово.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG6" alt="..." class="persona" title="Кнубово">
+                </div>
+                <div class="col-sm">
+                    <img src="Липники.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG7" alt="..." class="persona" title="Липники">
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-sm">
+                    <img src="Малая Плотница (Плотница).jpg" class="d-block w-100 h-100 img-fluid"
+                        data-bs-toggle="modal" data-bs-target="#IMG8" alt="..." class="persona"
+                        title="Малая Плотница (Плотница)">
+                </div>
+                <div class="col-sm">
+                    <img src="Мерчицы.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG9" alt="..." id="imga" title="Мерчицы">
+                </div>
+                <div class="col-md-4">
+                    <img src="Мокрая Дуброва.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG10" alt="..." id="imga" title="Мокрая Дубровка">
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-md-4">
+                    <img src="Озаричи.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG11" alt="..." id="imga" title="Озаричи">
+                </div>
+                <div class="col-md-4">
+                    <img src="Погост Загородский.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG12" alt="..." id="imga" title="Погост-Загородский">
+                </div>
+                <div class="col-md-4">
+                    <img src="Поречье.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG13" alt="..." id="imga" title="Поречье">
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-md-4">
+                    <img src="Твердовка.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG14" alt="..." id="imga" title="Твердовка">
+                </div>
+                <div class="col-md-4">
+                    <img src="Теребень.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG15" alt="..." id="imga" title="Теребень">
+                </div>
+                <div class="col-md-4">
+                    <img src="Тобулки.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG16" alt="..." id="imga" title="Тобулки">
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-md-4">
+                    <img src="Чухово.jpg" class="d-block w-100 h-100 img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#IMG17" alt="..." id="imga" title="Чухово">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!---ОКНО-->
+    <div class="modal fade" id="IMG1" tabindex="-1" aria-labelledby="IMG1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG1">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Бобрик.jpg" class="img-fluid rounded-start w-100 h-100" alt="..." mr-3>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Бобрик</h5>
+                                    <p class="card-text">Деревня является давней собственностью семьи Бортновских.
+
+                                        Начало XX века — имение становится собственностью Гутовских
+                                        1913 год — земли и фольварк покупает барон Арист Арнольд Маас, который позже
+                                        приобретает
+                                        имения Хотыничи и Мальковичи (сегодняшние деревни Ганцевичского района)
+                                        1919 год — смерть А. Мааса, его владения наследуют жена и дети Александр, Эмилия
+                                        Мария,
+                                        Надежда Вера, Хелена Элиза, а также родственник Александр Маньковский
+                                        1944 год — фашистами уничтожено 77 дворов</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2430.523478160191!2d26.307476712909015!3d52.46965697193144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDI4JzEwLjgiTiAyNsKwMTgnMzYuMiJF!5e0!3m2!1sru!2sby!4v1712221538354!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG2" tabindex="-1" aria-labelledby="IMG2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG2">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Борки.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Борки</h5>
+                                    <p class="card-text">Впервые упоминается в XVIII веке. В 1880 году в деревне Борки
+                                        работали
+                                        поташные заводы Арона Брука, которому принадлежал, также расположенный на
+                                        территории
+                                        деревни, дегтярный завод.
+                                        Однако, самым трагическим моментом в истории деревни Борки является 15 июня 1942
+                                        года. В
+                                        этот день особый отряд СС при поддержке коллаборационистов окружили деревню. То,
+                                        что
+                                        произошло потом, войдет в историю Великой Отечественной как самая масштабная
+                                        трагедия на
+                                        территории Беларуси, унесшая одномоментно жизни более 2000 мирных жителей.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2436.431413766083!2d26.346970712904202!3d52.36259697190368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDIxJzQ1LjQiTiAyNsKwMjAnNTguNCJF!5e0!3m2!1sru!2sby!4v1712221932813!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG4" tabindex="-1" aria-labelledby="IMG4" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG4">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Велесница.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Велесница</h5>
+                                    <p class="card-text">1503 год — первое упоминание, пинский князь Федор Ярославович
+                                        жалует
+                                        дворище в Велеснице члену рады Федору Щепе.
+                                        1524 год — право на прежние владения Федору Щепе подтверждает королева Бона.
+                                        После смерти Щепы дворища переходят вдове Светохне Причине, затем сыну от
+                                        первого брака
+                                        (с Мариной Анцушкович) Николаю. Велесница неоднократно упоминается в «Писцовой
+                                        книге
+                                        Пинского и Клецкого княжеств».
+
+                                        Середина XVII века — является собственностью пинских иезуитов.
+                                        Около 1780 года — Велесницу и Холожин приобретает генерал Петр Твардовский,
+                                        который
+                                        позже становится основателем местной линии рода.
+                                        Утрачен одноэтажный дворец в стиле классицизма, построенный П. Твардовским в
+                                        конце XVIII
+                                        века
+
+                                        Первая мировая война — через Велесницу проходит линия фронта, имение сожжено
+                                        вместе с
+                                        имуществом и хозяйственными постройками. Сгорает Николаевская церковь,
+                                        основанная
+                                        Твардовским.
+                                        Июнь 1944 года — фашистами уничтожено 46 дворов, убит 1 человек.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2441.790462241288!2d25.896079712899777!3d52.26534997187881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDE1JzU1LjMiTiAyNcKwNTMnNTUuMiJF!5e0!3m2!1sru!2sby!4v1712222023512!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG5" tabindex="-1" aria-labelledby="IMG5" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG5">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Заборовцы.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Заборовцы</h5>
+                                    <p class="card-text">1495 год — первое упоминание населённого пункта, заборовцы
+                                        принадлежали
+                                        к королевским владениям и были переданы Сигизмундом I своей жене Боне;
+                                        1533 год — по указанию Бони составлена опись села, к которому тогда примыкала
+                                        большая
+                                        королевская пуща. Позже Заборовцы стали государственной собственностью.
+                                        1940—1954 года — в деревне находился центр одноимённого сельсовета.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2951.7592392140214!2d26.109872249187386!3d52.39235878490144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDIzJzMxLjQiTiAyNsKwMDYnNDkuMyJF!5e0!3m2!1sru!2sby!4v1712223443419!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG6" tabindex="-1" aria-labelledby="IMG6" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG6">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Кнубово.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Кнубово</h5>
+                                    <p class="card-text">Деревня Кнубово находится в Пинском районе Брестской области
+                                        Беларуси.
+                                        Впервые упоминается в 1503 году, когда пинский князь Федор Ярославович жаловал
+                                        дворище в
+                                        Кнубово члену рады Федору Щепе. В 1524 году право на прежние владения Федору
+                                        Щепе
+                                        подтверждает королева Бона.
+
+                                        В деревне установлен памятник в честь увековечения памяти 70 жителей деревни
+                                        Большие
+                                        Дворцы, Велятичи, Диковичи, Кнубово, Сернички, которые погибли в годы войны.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4543.335599123201!2d26.17560325564413!3d52.05174652574447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4727a4dafa9b4937%3A0xe5098e23638badb6!2z0JrQvdGD0LHQvtCy0L4sINCR0YDQtdGB0YLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sby!4v1712223571051!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG7" tabindex="-1" aria-labelledby="IMG7" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG7">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Липники.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Липники</h5>
+                                    <p class="card-text">1665 год — Мария Лукреция Колец, из дома маркграфов Строззи,
+                                        дарит
+                                        Липники Пинскому доминиканскому монастырю
+                                        XIX век — владельцами Липник становятся Скирмунтты
+                                        1943 год — фашистами уничтожен 31 двор и убито 7 жителей
+                                        Достопримечательности:
+                                        Мемориальная доска партизанам в память отряда «Храбрецы» НКГБ СССР, который
+                                        действовал в
+                                        районе деревни с октября 1943 по июнь 1944 года;
+                                        Обелиск на бывшей могиле советских летчиков и партизан, останки которых
+                                        перезахоронены в
+                                        деревне Погост-Загородский.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2430.5973107458967!2d26.173635712909093!3d52.46831997193118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDI4JzA2LjAiTiAyNsKwMTAnMzQuNCJF!5e0!3m2!1sru!2sby!4v1712223645566!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG8" tabindex="-1" aria-labelledby="IMG8" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG8">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Малая Плотница (Плотница).jpg" class="img-fluid rounded-start w-100 h-100"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Малая Плотница</h5>
+                                    <p class="card-text">Деревня является давней вотчиной рода Завадских.
+
+                                        XIX век — при имении действует стекольный завод
+                                        Конец XIX века — владельцами усадьбы являются Александр и Базыль Завадские,
+                                        позже
+                                        деревня переходит к Отгону Завадскому
+                                        Начало XX века — действуют народное училище (учитель К.Дыдышко), две ремесленные
+                                        школы
+                                        для молодёжи близлежащих населенных пунктов. Существовала церковь
+                                        1944 год — фашисты уничтожают 131 двор и убивают 11 человек
+                                        С 1923 г. существует неопротестантская община, которая и по сегодняшний день
+                                        объединяет
+                                        большинство христиан деревни. Огромную роль в признании и официальной
+                                        регистрации общины
+                                        в условиях гонений на церковь в годы советской власти сыграл Никонор Адамович
+                                        Стасюкевич
+                                        (1897-1980), пресвитер общины по 1980-й год
+                                        До 80-х годов XX столетия возле деревни находилась работающая узкоколейная
+                                        железная
+                                        дорога для транспортировки заготовленной древесины на жел. дор. станцию
+                                        Мальковичи
+                                        Лунинецкого района Брестской области</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19445.432716213145!2d26.41021335!3d52.46683905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4727808d28e1e44d%3A0xaab5dd49aec7555f!2z0JzQsNC7LiDQn9C70L7RgtC90LjRhtCwLCDQkdGA0LXRgdGC0YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sby!4v1712223741672!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG9" tabindex="-1" aria-labelledby="IMG9" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG9">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Мерчицы.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Мерчицы</h5>
+                                    <p class="card-text">1514 год — первое упоминание в документе: Кирилл Гричин
+                                        получает от
+                                        князя Федора Ярославича четыре дворища в Мерчицах. Позже переходит Михаилу
+                                        Моклоку
+                                        XIX век — деревня принадлежат Твардовским
+                                        Начало XX века — действует народное училище (учитель Е. Бабич)
+                                        Сентябрь 1943 года — фашистами уничтожено 8 хозяйств, убито 7 жителей</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4351.08482710865!2d25.937738156556915!3d52.26220098629077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDE1JzUwLjQiTiAyNcKwNTYnMzcuMSJF!5e0!3m2!1sru!2sby!4v1712223947901!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG10" tabindex="-1" aria-labelledby="IMG10" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG10">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Мокрая Дуброва.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Мокрая Дуброва</h5>
+                                    <p class="card-text">Деревня является давней собственностью королей Речи Посполитой,
+                                        являлась вотчиной землевладельцев Сташевичей.
+
+                                        80-е года XIX века — Мокрая Дубрава состоит из 32 дворов с населением 203
+                                        человека
+                                        Являлась местом сражений в годы Первой мировой и советско-польской войн
+                                        9 сентября 1915 г. под Мокрой Дубравой геройски погибла в бою сестра милосердия
+                                        Римма
+                                        Иванова — единственная в России женщина, награждённая орденом Святого Георгия
+                                        4-й
+                                        степени
+                                        В советское время часть земель подверглась парцелляции и была продана крестьянам
+                                        1940—1954 года — являлась центром Дубравского сельсовета Логишинского района
+                                        Пинской
+                                        области
+                                        Март 1944 года — фашистами было уничтожено 3 двора, убито 4 человека</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d5265.009341910011!2d26.059258444983953!3d52.3455830702229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDIwJzQ5LjkiTiAyNsKwMDMnNDcuNiJF!5e0!3m2!1sru!2sby!4v1712224000233!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG11" tabindex="-1" aria-labelledby="IMG11" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG11">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Озаричи.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Озаричи</h5>
+                                    <p class="card-text">1557 год — первое упоминание как королевской собственности
+                                        XVIII век — селение переходит к Огинским
+                                        Конец XVIII века — на средства Михаила Казимира Огинского строится
+                                        грекокатолическая
+                                        церковь
+                                        1795 год — из унии в православные «переведено 358 душ мужского и 313 женского
+                                        пола»
+                                        1870 год — при поддержке Пусловских, владельцев имения, строится Покровская
+                                        церковь
+                                        (снесена в 1960-е годы)
+                                        Февраль 1944 года — нацисты уничтожили 16 хозяйств, убили 17 человек</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2434.1044609826604!2d25.84342071290611!3d52.404782971914614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDI0JzE3LjIiTiAyNcKwNTAnNDUuNiJF!5e0!3m2!1sru!2sby!4v1712224054786!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG12" tabindex="-1" aria-labelledby="IMG12" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG12">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Погост Загородский.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Погост Загородский</h5>
+                                    <p class="card-text">Поселение старинное, первое упоминание относится к 1528 году.
+                                        Со
+                                        времени территориально-административной реформы середины XVI века в Великом
+                                        княжестве
+                                        Литовском Погост входил в состав Новогородского повета .
+                                        В 1572 году Погост-Загородский получил статус местечка. В XVI веке и начале
+                                        ХУII-го им
+                                        владели Радзивиллы и Стацкевичы . В местечке проводились регулярные ярмарки, на
+                                        которых
+                                        пользовалась спросом местная керамика. В середине XVII века местечко перешло во
+                                        владение
+                                        князей Друцких-Любецких и принадлежало им до 1939 года. В 1769 году владелец
+                                        имения
+                                        Франц Друцкий-Любецкий построил в поселении деревянную униатскую церковь, а в
+                                        1775 году
+                                        кирпичный костёл Святого Юзефа. В 1773 году в Погосте-Загородском родился
+                                        известный
+                                        этнограф, историк, писатель Лукаш Голембиовский, а в 1778 году российский
+                                        государственный деятель Франциск-Ксаверий Друцкий-Любецкий.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2438.7222696599524!2d26.340388712902357!3d52.32104197189292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDE5JzE1LjgiTiAyNsKwMjAnMzQuNyJF!5e0!3m2!1sru!2sby!4v1712224097247!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG13" tabindex="-1" aria-labelledby="IMG13" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG13">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Поречье.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Поречье</h5>
+                                    <p class="card-text">1495 год — первое упоминание, пинская княжна Мария жалует две
+                                        дворища
+                                        Матвею Гричине. Имения наследует сын Борис и его потомки Войны-Гричины
+                                        Начало XVII века — собственниками являются Терлецкие. Позже Поречье переходит
+                                        Огинским,
+                                        позднее — Скирмунтам
+                                        1830-е годы — Александр Скирмунт основывает промышленные предприятия. Позже
+                                        имение
+                                        переходит его сыну Александру Александровичу, впоследствии — внуку Роману
+                                        Александровичу. Скирмунтами был построен не сохранившийся до наших времен
+                                        усадебный дом,
+                                        основан парк;
+                                        В разные годы функционировали сахарный завод (считавшийся лучшим среди
+                                        свеклосахарных
+                                        заводов Минской губернии), суконная фабрики, ворсильная плантация и винокуренный
+                                        завод
+                                        XIX век — является центром волости Пинского уезда
+                                        1907 год — Скирмунтами возведён не сохранившийся до наших дней костел Сердца
+                                        Иисуса и
+                                        православный храм
+                                        1920-е годы — является центром гмины
+                                        Март 1944 года — фашистами уничтожено 20 дворов, убито 20 жителей</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2440.8661483278156!2d25.80502371290049!3d52.282131971883054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDE2JzU1LjciTiAyNcKwNDgnMjcuNCJF!5e0!3m2!1sru!2sby!4v1712224147407!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG14" tabindex="-1" aria-labelledby="IMG14" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG14">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Твердовка.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Твердовка</h5>
+                                    <p class="card-text">Деревня Твердовка находится в Пинском районе Брестской области
+                                        Белоруссии. Впервые упоминается в 1503 году, когда пинский князь Федор
+                                        Ярославович
+                                        жаловал дворище в Твердовке члену рады Федору Щепе. В 1524 году право на прежние
+                                        владения Федору Щепе подтверждает королева Бона.
+                                        Твердовка расположена в 8 км от автодороги Ивацевичи — Пинск — Столин (Р-6) и в
+                                        25 км от
+                                        города Пинск⁴. По переписи населения 2019 года в деревне проживало 18 человек.
+                                        В деревне установлен монумент землякам, погибшим в годы Великой Отечественной
+                                        войны.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2440.348601928768!2d25.90485571290092!3d52.29152697188553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDE3JzI5LjUiTiAyNcKwNTQnMjYuOCJF!5e0!3m2!1sru!2sby!4v1712224194951!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG15" tabindex="-1" aria-labelledby="IMG15" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG15">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Теребень.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Теребень</h5>
+                                    <p class="card-text">Деревня является давняя вотчиной Скирмунттов.
+
+                                        конец XIX века — поселение составляет 49 дворов. Местное население занимается
+                                        земледелием и ремеслом, в производстве ободьев и саней в 1901 году занято 15
+                                        человек.
+                                        Изготовляются телеги, земледельческий инвентарь, колеса для водяных мельниц
+                                        1890 год — смерть Владислава Скирмунтта, имение распределено среди его
+                                        наследников.
+                                        Бо́льшая часть (Антомысль) отходит старшему сыну Владиславу Якубу и вместе с
+                                        урочищем
+                                        Возовня составляла 2276 десятин земли. Вторая часть (Гутка, впоследствии
+                                        Теребень-Гутка,
+                                        Теребень), достается среднему сыну Антону Станиславу
+                                        После Первой мировой войны помещичьи угодья подверглись частичной парцелляции.
+                                        Оба
+                                        имения становятся собственностью Владислава Якуба Скирмунта
+                                        1930 год — у супруги Владислава земли откупает Каспер Скирмунтт, последний
+                                        владелец
+                                        1944 год — фашисты уничтожили 89 домов, убили 13 жителей
+                                        После 1945 года — церковь Св.-Введения, приписанная к Доброславскому приходу,
+                                        разобрана,
+                                        а из стройматериалов возведена хозпостройка в деревне Бобрик</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2431.889194317587!2d26.33490371290788!3d52.44492197192489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDI2JzQxLjciTiAyNsKwMjAnMTQuOSJF!5e0!3m2!1sru!2sby!4v1712224239357!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG16" tabindex="-1" aria-labelledby="IMG16" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG16">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Тобулки.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Тобулки</h5>
+                                    <p class="card-text">Деревня Тобулки находится в Пинском районе Брестской области
+                                        Белоруссии. Впервые упоминается в 1495 году1. В XVII веке была собственностью
+                                        Терлецких.
+                                        В 1647 году являлась имением Яроша Терлецкого. В конце XIX века в деревне
+                                        действовало
+                                        народное училище. В марте 1943 года фашисты уничтожили 2 двора, убили 3 жителей.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2440.3855677698293!2d25.745782712900795!3d52.29085597188532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDE3JzI3LjEiTiAyNcKwNDQnNTQuMSJF!5e0!3m2!1sru!2sby!4v1712224279114!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="IMG17" tabindex="-1" aria-labelledby="IMG17" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header"> <!----ГОЛОВА-->
+                    <h5 class="modal-title" id="IMG17">Место положение и история</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"><!----ТЕЛО-->
+                    <div class="card mb-3 w-auto p-3" style="">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Чухово.jpg" class="img-fluid rounded-start w-100 h-100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Деревня Чухово</h5>
+                                    <p class="card-text">XVII век — является собственностью Стеткевичей, позже —
+                                        вотчиной
+                                        Нелюбовичей, владельцев соседнего имения Плянта-Мурованая.
+                                        Конец XIX века — в деревне проживало 245 крестьян, существовали народное училище
+                                        (учитель К. Маковский), кладбищенская церковь.
+                                        На кладбище в период советско-польской войны 1919—1920 годов были основаны
+                                        захоронения.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"><!-----ПОДВАЛЬЧИК-->
+                    <iframe class="vw-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2438.167962111977!2d26.249332712902767!3d52.3310989718957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDE5JzUyLjAiTiAyNsKwMTUnMDYuOSJF!5e0!3m2!1sru!2sby!4v1712224325688!5m2!1sru!2sby"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---ОКНО-->
+
+    <footer class="text-center pt-4 my-md 5 pt-md-5 border-top" id="1">
+        <div class="row">
+            <div class="col-12 col-md">
+                <h5>О нас</h5>
+                <ul class="list-unstyled text-smal border-top">
+                    <li><a>Сайт посвящен сожженным деревням Пинского района</a></li>
+                    <li><a>при любом не соответствии информаций свяжитесь с нами.</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5></h5>
+                <ul class="list-unstyled text-smal">
+                    <li></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Контакты</h5>
+                <ul class="list-unstyled text-smal border-top">
+                    <li>
+                        <a2>Адрес: </a2>
+                        <a3>г.Пинск,ул. Федотова,36.</a3>
+                    </li>
+                    <li>
+                        <a2>Телефон: </a2>
+                        <a3>+375 16 562-64-30</a3>
+                    </li>
+                    <li>
+                        <a2>Email: </a2>
+                        <a3>pinskvpulp@brest.by</a3>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Соц сети</h5>
+                <ul class="list-unstyled text-smal border-top">
+                    <li><a href="https://www.instagram.com/pgktit.108/?hl=ru" target="_blank"><img src="instagram.svg"
+                                alt=""></a></img>
+                        <a3></a3>
+                    </li>
+                    <li><a href="https://vk.com/pinskgktit?t2fs=20c49b44aa0ad33522_3" target="_blank"><img
+                                src="Vector.svg" alt=""></a></img>
+                        <a3></a3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
